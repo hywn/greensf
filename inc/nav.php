@@ -3,7 +3,6 @@
 		<a href="index.php">Home</a>
 		| <a href="order.php">Order</a>
 		| <a href="faq.php">FAQ</a>
-		| <a href="faq.php">FAQ</a>
 		| <a href="suppliers.php">Our Suppliers</a>
 		| <a href="http://www.greenstogrounds.wordpress.com">Blog</a>
 		| <a href="news.php">Press</a>
