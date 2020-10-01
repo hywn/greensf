@@ -1,158 +1,51 @@
-@font-face {
-    font-family: GothamBook;
-    src: url(../fonts/GothamBook.otf);
-}
-
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
+h1 { margin-top: 0 }
+dl { margin: 1em; max-width: 45em }
+dt { font-weight: bold }
+dd { margin-bottom: 0.5em }
 
-/*****************************************
-			   NAVIGATION
-*****************************************/
-.navbar {
-    height: 50px;
-    position: absolute;
-    z-index: 100;
+#home-background-img {
+	height: 100vh;
+	background-image: url('../imgs/home.jpg');
+	background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
+
+	display: flex;
+	flex-direction: column;
 }
 
-ul.nav {
-    list-style-type: none;
+#g2g-logo { height: 25em }
+#intro-box {
+	align-self: flex-start;
+
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 50%;
+	min-width: 50em;
+
+	align-items: center;
+	justify-content: center;
 }
 
-li.nav {
-    display: inline-block;
-    padding: 20px;
-    text-shadow: 2px 2px 2px #000000;
-    font-size: 1.1em;
+.section:nth-child(even) { background-color: #ebebeb }
+.section img { margin: 1em; max-width: 50em; }
+.section {
+	padding: 5em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-a.nav {
-    color: white;
-    text-decoration: none;
+#our-mission img { max-width: 60em }
+#our-mission-body {
+	font-size: 1.2em;
+	display: flex;
+	align-items: center;
 }
 
-a.nav:hover {
-    color: #c9fe65;
-}
+#whats-in-the-boxes img { max-width: 40em }
 
-a.current {
-    color: #c9fe65;
-}
-
-#vertical-bar {
-    font-size: 1.4em;
-    color: white;
-    text-shadow: 2px 2px #000000;
-}
-
-
-.home-background-img {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    background-image: url('../imgs/home.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.g2g-logo {
-    padding: 220px 0px 0px 80px;
-}
-
-.arrow {
-    padding: 20px 0px 0px 325px;
-}
-
-.our-mission-container {
-    width: 100%;
-    height: 100%;
-    background-color: #ebebeb;
-    padding: 40px 0;
-}
-
-.our-mission-header {
-    font-size: 2em;
-    padding-left: 70px;
-}
-
-.our-mission-body {
-    font-size: 1.2em;
-    padding: 40px 70px 0 70px;
-    display: inline-block;
-}
-
-.our-mission-logo {
-    padding-top: 40px;
-}
-
-.box-example-container {
-    width: 100%;
-    height: 100%;
-    padding: 40px 0;
-}
-
-.box-example-header {
-    font-size: 2em;
-    padding-left: 300px;
-}
-
-.box-example-pic {
-    padding-top: 100px;
-    padding-left: 100px;
-}
-
-.box-example-bullets {
-    padding-top: 50px;
-    padding-left: 50px;
-}
-
-#left-list {
-    padding-right: 100px;
-    display: inline-block;
-}
-
-li {
-    font-size: 1.2em;
-    padding: 15px 0px;
-}
-
-#right-list {
-    display: inline-block;
-}
-
-li {
-    font-size: 1.2em;
-    padding: 15px 0px;
-}
-
-.get-started-container {
-    width: 100%;
-    height: 100%;
-    padding: 40px 0;
-    background-color: #ebebeb;
-}
-
-.get-started-header {
-    font-size: 2em;
-    padding-left: 70px;
-}
-
-.get-started-body {
-    font-size: 1.2em;
-    padding-top: 40px;
-    padding-left: 70px;
-    max-width: 700px;
-}
-
-.get-started-btn {
-    padding-top: 50px;
-    padding-left: 70px;
-}
-
-.get-started-logo {
-    padding-top: 30px;
-}
+#get-started-body { width: 100% }

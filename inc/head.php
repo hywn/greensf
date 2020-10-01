@@ -22,16 +22,16 @@
   <!-- Icons -->
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <!-- Bootstrap Core CSS -->
-  <link href="lib/css/bootstrap.min.css" rel="stylesheet">
+  <!--link href="lib/css/bootstrap.min.css" rel="stylesheet"-->
 
   <!-- Custom CSS -->
   <link href="lib/css/nav.css" rel="stylesheet" type="text/css">
   <link href="lib/css/footer.css" rel="stylesheet" type="text/css">
-  <link href="lib/css/skeleton.css" rel="stylesheet" type="text/css">
+  <!--link href="lib/css/skeleton.css" rel="stylesheet" type="text/css"-->
 
-  <style>
+  <!--style>
     body {overflow-x: hidden;}
-  </style>
+  </style-->
 
 
   <!--[if lt IE 9]>
