@@ -1,3 +1,5 @@
+.section:nth-child(odd) { background-color: #ebebeb }
+
 .captioned { margin: 1em; position: relative; height: 20em }
 .captioned img { margin: 0; height: 100% }
 .overlay {
