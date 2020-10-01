@@ -27,6 +27,7 @@
   <!-- Custom CSS -->
   <link href="lib/css/nav.css" rel="stylesheet" type="text/css">
   <link href="lib/css/footer.css" rel="stylesheet" type="text/css">
+  <link href="lib/css/site.css" rel="stylesheet" type="text/css">
   <!--link href="lib/css/skeleton.css" rel="stylesheet" type="text/css"-->
 
   <!--style>

@@ -1,32 +1,11 @@
-.questions-container {
-    width: 100%;
-    height: 100%;
-    background-color: #ebebeb;
-    padding-bottom: 50px;
-}
+.section:nth-child(odd) { background-color: #ebebeb }
 
 .question {
-    font-size: 1.4em;
-    font-weight: bold;
-    padding: 50px 70px 0 70px;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin: 1em 0 1em 0
 }
 
 .answer {
-    padding: 15px 150px 0 70px;
-}
-
-.order-header-container {
-    height: 400px;
-}
-
-.order-logo {
-    width: 157px;
-    margin: 0 auto;
-    padding-top: 100px;
-}
-
-.order-header {
-    font-size: 2em;
-    text-align: center;
-    padding-top: 20px;
+	margin: 1em 0 1em 0
 }
