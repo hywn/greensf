@@ -6,7 +6,6 @@
 		include('inc/head.php');
 	?>
 	<link href="lib/css/homepage.css" rel="stylesheet" type="text/css">
-	<link href="lib/css/box_examples.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div class="container">
