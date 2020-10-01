@@ -28,6 +28,5 @@
 		<div class="answer">Of course! Most of our produce can be eaten raw, and we have specific offerings that allow you to just grab a snack and go! Check out our snack box - with apples, granola, nuts, and other ready-to-go snacks, no pots and pans are required!</div>
 	</div>
 	<?php include('inc/footer.php'); ?>
-	<?php include('inc/scripts.php') ?>
 </body>
 </html>
