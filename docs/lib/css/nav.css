@@ -1,0 +1,19 @@
+#navbar {
+	font-size: 1.2em;
+
+	z-index: 1;
+
+	padding: 1em;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	color: #fff;
+	background-color: #262626;
+}
+
+#navbar a {
+	color: white;
+	padding: 0 1em 0 1em;
+}

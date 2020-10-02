@@ -1,0 +1,44 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+h1 { margin-top: 0 }
+dl { margin: 1em; max-width: 45em }
+dt { font-weight: bold }
+dd { margin-bottom: 0.5em }
+
+#home-background-img {
+	height: 100vh;
+	background-image: url('../imgs/home.jpg');
+	background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
+
+	display: flex;
+	flex-direction: column;
+}
+
+#g2g-logo { height: 25em }
+#intro-box {
+	align-self: flex-start;
+
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 50%;
+	min-width: 50em;
+
+	align-items: center;
+	justify-content: center;
+}
+
+.section:nth-child(even) { background-color: #ebebeb }
+
+#our-mission img { max-width: 60em }
+#our-mission-body {
+	font-size: 1.2em;
+	display: flex;
+	align-items: center;
+}
+
+#whats-in-the-boxes img { max-width: 40em }
+
+#get-started-body { width: 100% }

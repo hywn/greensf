@@ -1,0 +1,32 @@
+.section:nth-child(odd) { background-color: #ebebeb }
+
+.captioned { margin: 1em; position: relative; height: 20em }
+.captioned img { margin: 0; height: 100% }
+.overlay {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.overlay p {
+	font-size: 2em;
+	margin: 0.5em;
+	padding: 0.2em;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.6);
+	text-align: center;
+}
+
+#supplier-gallery {
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#supplier-info {
+	align-items: stretch;
+}

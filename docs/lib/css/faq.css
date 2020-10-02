@@ -1,0 +1,11 @@
+.section:nth-child(odd) { background-color: #ebebeb }
+
+.question {
+	font-size: 1.4em;
+	font-weight: bold;
+	margin: 1em 0 1em 0
+}
+
+.answer {
+	margin: 1em 0 1em 0
+}

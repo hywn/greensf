@@ -1,0 +1,21 @@
+#footer a { color: #1eaedb}
+#footer {
+	display: flex;
+	justify-content: space-evenly;
+
+	background-color: #262626;
+	color: white;
+}
+
+#social-media-icons { display: flex; align-items: center }
+#social-media-icons img { width: 2em; margin: 0.5em }
+
+#copyright {
+	display: flex;
+	justify-content: center;
+
+	background-color: #b1da60;
+	color: #222;
+}
+
+#footer, #copyright { padding: 0.8em }
